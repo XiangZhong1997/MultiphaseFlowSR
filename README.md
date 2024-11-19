@@ -53,18 +53,18 @@ python umf_run.py -i <correlation_id> -t <trial_id> -n <noise_level> -p <paralle
 ```
 
 **Parameters**
--i or --correlation: Select the Umf correlation ID (e.g., for Type 1: 1–45).
--t or --trial: Specify the trial number (sets the random seed).
--n or --noise: Set the noise level (default 0.0, no noise).
--p or --parallel_mode: Enable parallel mode (default False).
--ncpus or --ncpus: Number of CPUs to use (default 1).
+- -i or --correlation: Select the Umf correlation ID (e.g., for Type 1: 1–45).
+- -t or --trial: Specify the trial number (sets the random seed).
+- -n or --noise: Set the noise level (default 0.0, no noise).
+- -p or --parallel_mode: Enable parallel mode (default False).
+- -ncpus or --ncpus: Number of CPUs to use (default 1).
 
 **Examples**
 **Basic run:**
 ```
 python umf_run.py -i 1 -t 0 -n 0.1
-Runs correlation ID 1 with a trial ID of 0, 10% noise level, and no parallel mode.
 ```
+Runs correlation ID 1 with a trial ID of 0, 10% noise level, and no parallel mode.
 
 **Parallel run:**
 ```
@@ -73,11 +73,11 @@ python umf_run.py -i 2 -t 1 -n 0.2 -p True -ncpus 4
 Runs correlation ID 2, trial ID 1, 20% noise level, parallel mode enabled, and 4 CPUs.
 
 **Outputs**
--Data file: The generated dataset is saved as <RUN_NAME>_data.csv.
--Visualization: Scatter plot of the data is saved as <RUN_NAME>_data.png.
--Symbolic regression results:
---SR.log: Symbolic regression logs.
---SR_curves.png: Convergence curves.
+- Data file: The generated dataset is saved as <RUN_NAME>_data.csv.
+- Visualization: Scatter plot of the data is saved as <RUN_NAME>_data.png.
+- Symbolic regression results:
+- SR.log: Symbolic regression logs.
+- SR_curves.png: Convergence curves.
 
 ## **Notes**
 For large datasets, non-parallel mode is recommended to avoid performance issues.
