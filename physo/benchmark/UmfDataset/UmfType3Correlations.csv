@@ -1,0 +1,7 @@
+Filename,Number,Output,Formula,# variables,v1_name,v1_low,v1_high,v2_name,v2_low,v2_high,v3_name,v3_low,v3_high,v4_name,v4_low,v4_high,v5_name,v5_low,v5_high,v6_name,v6_low,v6_high,v7_name,v7_low,v7_high,v8_name,v8_low,v8_high,v9_name,v9_low,v9_high,v10_name,v10_low,v10_high
+"Todes, Goroshkov and Rozenbaum",1,Re_mf,Ar / (1400 + 5.2 * sqrt(Ar)),6,mu,0.000015,0.000045,d_p,0.0001,0.004,rho,0.5,4,rho_p,1000,8000,Ar,,,g,9.81,9.81,,,,,,,,,,,,
+"Goroshkov, Rozenbaum and Todes",2,Re_mf,Ar / (150 * ((1 - epsilon_mf) / epsilon_mf**3) + 1.323 * epsilon_mf**(-1.5) * sqrt(Ar)),7,mu,0.000015,0.000045,d_p,0.0001,0.004,rho,0.5,4,rho_p,1000,8000,Ar,,,epsilon_mf,0,1,g,9.81,9.81,,,,,,,,,
+"Davtyan, Ainshtein, Girgoryan and Amamchyeen",3,Re_mf,Ar / (1040 + 4.86 * sqrt(Ar)),6,mu,0.000015,0.000045,d_p,0.0001,0.004,rho,0.5,4,rho_p,1000,8000,Ar,,,g,9.81,9.81,,,,,,,,,,,,
+"Fletcher, Deo and Hanson",4,Re_mf,Ar / (1400 + 5 * sqrt(Ar)),6,mu,0.000015,0.000045,d_p,0.0001,0.004,rho,0.5,4,rho_p,1000,8000,Ar,,,g,9.81,9.81,,,,,,,,,,,,
+"Fletcher, Deo and Hanson",5,Re_mf,Ar / (1170 + sqrt(Ar)),6,mu,0.000015,0.000045,d_p,0.0001,0.004,rho,0.5,4,rho_p,1000,8000,Ar,,,g,9.81,9.81,,,,,,,,,,,,
+"Fletcher, Deo and Hanson",6,Re_mf,Ar / (790 + 7 * sqrt(Ar)),6,mu,0.000015,0.000045,d_p,0.0001,0.004,rho,0.5,4,rho_p,1000,8000,Ar,,,g,9.81,9.81,,,,,,,,,,,,

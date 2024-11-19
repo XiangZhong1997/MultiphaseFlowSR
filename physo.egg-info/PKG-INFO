@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: multiphaseflowsr
+Version: 1.1.0a0
+Summary: Multiphase Flow Symbolic Regression
+Author: Zhong Xiang
+Author-email: xiangzhong1997@outlook.com
+License: MIT
+License-File: LICENSE

@@ -1,0 +1,15 @@
+﻿Variable,Units,m,s,kg,T
+mu,Dynamic viscosity,-1,-1,1,0
+d_p,Length,1,0,0,0
+rho,Density,-3,0,1,0
+rho_p,Density,-3,0,1,0
+g,Acceleration,1,-2,0,0
+phi,Dimensionless,0,0,0,0
+epsilon_mf,Dimensionless,0,0,0,0
+Ar,Dimensionless,0,0,0,0
+alpha,Dimensionless,0,0,0,0
+theta,Dimensionless,0,0,0,0
+theta1,Dimensionless,0,0,0,0
+theta2,Dimensionless,0,0,0,0
+U_mf,velocity,1,-1,0,0
+Re_mf,Dimensionless,0,0,0,0
